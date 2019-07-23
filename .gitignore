@@ -33,14 +33,14 @@
 /target
 
 # build folder
-build/
+/build
 
 # Intelij IDEA project folder
 .idea
 
 #Gradle folders 
-gradle
-.gradle
+/gradle
+/.gradle
 
 
 
