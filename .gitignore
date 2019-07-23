@@ -31,3 +31,18 @@
 
 # "temporary" build files
 /target
+
+# build folder
+build/
+
+# Intelij IDEA project folder
+.idea
+
+#Gradle folders 
+gradle
+.gradle
+
+
+
+
+
