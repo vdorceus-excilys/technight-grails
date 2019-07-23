@@ -10,6 +10,12 @@ class Computer {
 
 
     static constraints = {
+        name nullable:true, unique: false, minSize: 3, maxSize: 50
+        // brackets parenthesis and semi-columns are optional
+        introduced nullable: false, validator: {val, obj -> ComputerValidator.validateIntroducedValue(obj, val)}
+
+        discontinued nullable: false, validator: {val, obj -> ComputerValidator.validateDiscontinuedValue(obj, val)}
+
 
     }
 }
