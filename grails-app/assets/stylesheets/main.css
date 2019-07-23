@@ -78,6 +78,11 @@ img {
     margin: 0.8em 1em 0.3em;
     padding: 0 0.25em;
 }
+.content h3 {
+    border-bottom: 1px solid #CCCCCC;
+    margin: 0.8em 1em 0.3em;
+    padding: 0 0.25em;
+}
 
 .scaffold-list h1 {
     border: none;
@@ -581,7 +586,7 @@ a.skip {
 }
 
 .grails-logo-container {
-    background: #7c7c7c no-repeat 50% 30%;
+    background: #ffffff no-repeat 50% 30%;
     margin-bottom: 20px;
     color: white;
     height:300px;
