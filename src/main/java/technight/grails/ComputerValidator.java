@@ -2,8 +2,7 @@ package technight.grails;
 
 import java.util.Date;
 
-public abstract class ComputerValidator {
-
+public class ComputerValidator {
     static public boolean validateIntroducedValue(Computer computer, Date value) {
         return true;
     }
