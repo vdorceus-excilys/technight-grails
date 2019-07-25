@@ -39,8 +39,8 @@
 .idea/**
 
 #Gradle folders 
-/gradle/**
-/.gradle/**
+gradle/
+.gradle/
 
 
 
