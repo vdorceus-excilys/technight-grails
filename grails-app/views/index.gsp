@@ -9,8 +9,8 @@
     <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Manage <span class="caret"></span></a>
         <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="#"> Computer</a></li>
-            <li class="dropdown-item"><a href="#">Company</a></li>            
+            <li class="dropdown-item"><g:link controller="computer"> Computer</g:link></li>
+            <li class="dropdown-item"><g:link controller="company">Company</g:link></li>
         </ul>
     </li>
 </content>
