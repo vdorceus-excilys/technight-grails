@@ -10,7 +10,7 @@ class Computer {
 
     @Override
     String toString() {
-        return name
+        return company.name +" - "+ name
     }
     static belongsTo = [company: Company]
 
@@ -18,9 +18,9 @@ class Computer {
     static constraints = {
         name nullable:true, unique: false, minSize: 3, maxSize: 50
         // brackets parenthesis and semi-columns are optional
-        introduced nullable: false, validator: ComputerValidator.introduced
+        introduced nullable: true, validator: ComputerValidator.introduced
 
-        discontinued nullable: false, validator: ComputerValidator.discontinued
+        discontinued nullable: true, validator: ComputerValidator.discontinued
 
     }
 }

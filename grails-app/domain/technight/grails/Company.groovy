@@ -11,7 +11,7 @@ class Company {
     static hasMany = [computers: Computer]
 
     static constraints = {
-        name ([ unique: true, nullable: false, minSize: 3, maxSize: 50 ]);
+        name ([ unique: true, nullable: false, minSize: 2, maxSize: 50 ]);
         //brackets and parenthesis are optional
     }
 }
