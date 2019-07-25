@@ -4,7 +4,11 @@ class Company {
 
     String name;
 
-    static hasMany = [computers : Computer]
+    @Override
+    String toString() {
+        return name
+    }
+    static hasMany = [computers: Computer]
 
     static constraints = {
         name ([ unique: true, nullable: false, minSize: 3, maxSize: 50 ]);
